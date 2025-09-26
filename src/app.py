@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.get("/")
 def root():
-    return "<h1>Hello World v10</h1>"
+    return "<h1>Hello World v11</h1>"
 
 @app.get("/api/v1/details")
 def details():
